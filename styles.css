@@ -1,0 +1,218 @@
+body {
+    padding-top: 80px;
+    background-color: #FF9900;
+}
+
+
+
+nav, a{
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* .cart-link-button {
+}
+
+.cart-link-button:hover{
+    color: #FF9900;
+} */
+
+.hero-section, img{
+    height: 50vh;
+    object-fit: cover;
+}
+
+.navbar .sign-btn, .navbar .live-btn{
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: white;
+}
+
+.navbar .sign-btn:hover, .navbar .live-btn:hover{
+    background-color: #d17d00;
+    border-color: #d17d00;
+    color: white;
+}
+
+
+
+.card-title {
+    color: black;
+    background-color: white;
+}
+
+.hero-section h5 {
+    color: white;
+    background-color: #FF9900;
+    border-radius: 5px;
+    padding: .3rem;
+    display: inline;
+}
+
+.product, .card-img-top {
+    height: 30vh;
+}
+
+.product {
+    margin-bottom: 40rem;
+
+}
+
+.footer {
+    height: 300px;
+    background-color: #313133;
+    margin-top: 30px;
+    color: white;
+}
+
+.icon  {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.icon:hover {
+    color: #FF9900;
+}
+
+.footer p, .footer label {
+    font-size: 1rem;
+}
+
+.newsletter button {
+    border-color: white;
+    color: white;
+}
+
+.newsletter button:hover{
+    color: white;
+    background-color: #d17d00;
+}
+
+.highlight {
+    color: #FF9900;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.search-button {
+    color: white;
+    background-color: #FF9900;
+    border-radius: 10px;
+    border-color: #FF9900;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-button:hover {
+    background-color: #d17d00;
+}
+
+.best-products .btn, .products .btn {
+    background-color: #FF9900;
+    outline: none;
+    border-color: #FF9900;
+    color: white;
+}
+
+.best-products .btn:hover, .products .btn:hover {
+    background-color: #d17d00;
+    border-color: #d17d00;
+    color: white;
+}
+
+.product h2, .best-products h2 {
+    background-color: #4B158D;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.products-title {
+    background-color: #FF9900;
+    border-radius: 10px;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+}
+
+.products a:hover {
+    color: #FF9900;
+}
+
+.detail img {
+    width: 300px;
+}
+
+.detail .delivery-details, .detail .delivery-details a {
+    font-size: .8rem;
+}
+
+.detail .delivery-details a {
+    text-decoration: none;
+}
+
+.detail .delivery-details .icon {
+    font-size: 1.6rem;
+    color: grey;
+
+}
+
+.detail .promotions a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.detail a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.misinformation {
+    margin-top: 4rem;
+}
+
+.detail .cart-btn {
+    background-color: #FF9900;
+    color: white;
+    font-size: medium;
+}
+
+.detail .detail-description {
+    color: #313133;
+}
+
+.cart-items img {
+    width: auto;
+    height: 150px;
+}
+
+.button-increment button {
+    width: 3rem;
+    font-size: medium;
+    background-color: #FF9900;
+    border-color: #FF9900;
+}
+
+.button-increment button:hover{
+    background-color: #d17d00;
+    border-color: #d17d00;
+}
+
+.checkout-btn button {
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: white;
+}
+
+.checkout-btn button:hover{
+    background-color: #d17d00;
+    border-color: #d17d00;
+    color: white;
+}
