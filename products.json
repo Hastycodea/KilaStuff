@@ -1,65 +1,79 @@
 {
-    "products": [
-      {
-        "title": "Product 1",
-        "description": "Some quick example text to build on the card title.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 2",
-        "description": "Another example text to build on the card title.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 3",
-        "description": "Third example text to build on the card title.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      },
-      {
-        "title": "Product 4",
-        "description": "More example text for the fourth product.",
-        "image": "asset/products/electronic1.jpg"
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "title": "Smartphone Pro",
+      "description": "A powerful smartphone with a stunning display and long-lasting battery.",
+      "image": "asset/products/electronic1.jpg"
+    },
+    {
+      "title": "Wireless Earbuds",
+      "description": "Enjoy crystal-clear sound with these comfortable and durable wireless earbuds.",
+      "image": "asset/products/electronic2.jpg"
+    },
+    {
+      "title": "4K Smart TV",
+      "description": "Experience immersive viewing with this ultra-high definition 4K smart TV.",
+      "image": "asset/products/electronic3.jpg"
+    },
+    {
+      "title": "Gaming Laptop",
+      "description": "High-performance gaming laptop with cutting-edge graphics and speed.",
+      "image": "asset/products/electronic4.jpg"
+    },
+    {
+      "title": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass and wireless connectivity for a rich sound experience.",
+      "image": "asset/products/electronic5.jpg"
+    },
+    {
+      "title": "Casual T-shirt",
+      "description": "A comfortable, stylish t-shirt for everyday wear.",
+      "image": "asset/products/apparel1.jpg"
+    },
+    {
+      "title": "Denim Jacket",
+      "description": "Classic denim jacket with a modern fit for any casual outfit.",
+      "image": "asset/products/apparel2.jpg"
+    },
+    {
+      "title": "Summer Dress",
+      "description": "A light and breezy summer dress perfect for warm weather.",
+      "image": "asset/products/apparel3.jpg"
+    },
+    {
+      "title": "Running Shoes",
+      "description": "Lightweight and durable running shoes designed for comfort and speed.",
+      "image": "asset/products/shoe1.jpg"
+    },
+    {
+      "title": "Leather Boots",
+      "description": "Elegant leather boots crafted for both style and durability.",
+      "image": "asset/products/shoe2.jpg"
+    },
+    {
+      "title": "Modern Sofa",
+      "description": "A sleek and comfortable sofa to enhance your living room space.",
+      "image": "asset/products/home1.jpg"
+    },
+    {
+      "title": "Dining Set",
+      "description": "Stylish dining set that brings elegance to any meal.",
+      "image": "asset/products/home2.jpg"
+    },
+    {
+      "title": "Floor Lamp",
+      "description": "Brighten up your home with this chic and modern floor lamp.",
+      "image": "asset/products/home3.jpg"
+    },
+    {
+      "title": "Coffee Table",
+      "description": "A sturdy and stylish coffee table that complements any living room.",
+      "image": "asset/products/home4.jpg"
+    },
+    {
+      "title": "Throw Pillows",
+      "description": "Soft and colorful throw pillows to add a cozy touch to your home.",
+      "image": "asset/products/home5.jpg"
+    }
+  ]
+}
