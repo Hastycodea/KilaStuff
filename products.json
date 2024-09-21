@@ -3,77 +3,92 @@
     {
       "title": "Smartphone Pro",
       "description": "A powerful smartphone with a stunning display and long-lasting battery.",
-      "image": "asset/products/electronic1.jpg"
+      "image": "asset/products/electronic1.jpg",
+      "price": 55000
     },
     {
       "title": "Wireless Earbuds",
       "description": "Enjoy crystal-clear sound with these comfortable and durable wireless earbuds.",
-      "image": "asset/products/electronic2.jpg"
+      "image": "asset/products/electronic2.jpg",
+      "price": 7000
     },
     {
       "title": "4K Smart TV",
       "description": "Experience immersive viewing with this ultra-high definition 4K smart TV.",
-      "image": "asset/products/electronic3.jpg"
+      "image": "asset/products/electronic3.jpg",
+      "price": 85000
     },
     {
       "title": "Gaming Laptop",
       "description": "High-performance gaming laptop with cutting-edge graphics and speed.",
-      "image": "asset/products/electronic4.jpg"
+      "image": "asset/products/electronic4.jpg",
+      "price": 120000
     },
     {
       "title": "Bluetooth Speaker",
       "description": "Portable speaker with deep bass and wireless connectivity for a rich sound experience.",
-      "image": "asset/products/electronic5.jpg"
+      "image": "asset/products/electronic5.jpg",
+      "price": 4500
     },
     {
       "title": "Casual T-shirt",
       "description": "A comfortable, stylish t-shirt for everyday wear.",
-      "image": "asset/products/apparel1.jpg"
+      "image": "asset/products/apparel1.jpg",
+      "price": 1500
     },
     {
       "title": "Denim Jacket",
       "description": "Classic denim jacket with a modern fit for any casual outfit.",
-      "image": "asset/products/apparel2.jpg"
+      "image": "asset/products/apparel2.jpg",
+      "price": 4500
     },
     {
       "title": "Summer Dress",
       "description": "A light and breezy summer dress perfect for warm weather.",
-      "image": "asset/products/apparel3.jpg"
+      "image": "asset/products/apparel3.jpg",
+      "price": 3000
     },
     {
       "title": "Running Shoes",
       "description": "Lightweight and durable running shoes designed for comfort and speed.",
-      "image": "asset/products/shoe1.jpg"
+      "image": "asset/products/shoe1.jpg",
+      "price": 6000
     },
     {
       "title": "Leather Boots",
       "description": "Elegant leather boots crafted for both style and durability.",
-      "image": "asset/products/shoe2.jpg"
+      "image": "asset/products/shoe2.jpg",
+      "price": 8000
     },
     {
       "title": "Modern Sofa",
       "description": "A sleek and comfortable sofa to enhance your living room space.",
-      "image": "asset/products/home1.jpg"
+      "image": "asset/products/home1.jpg",
+      "price": 35000
     },
     {
       "title": "Dining Set",
       "description": "Stylish dining set that brings elegance to any meal.",
-      "image": "asset/products/home2.jpg"
+      "image": "asset/products/home2.jpg",
+      "price": 45000
     },
     {
       "title": "Floor Lamp",
       "description": "Brighten up your home with this chic and modern floor lamp.",
-      "image": "asset/products/home3.jpg"
+      "image": "asset/products/home3.jpg",
+      "price": 2500
     },
     {
       "title": "Coffee Table",
       "description": "A sturdy and stylish coffee table that complements any living room.",
-      "image": "asset/products/home4.jpg"
+      "image": "asset/products/home4.jpg",
+      "price": 10000
     },
     {
       "title": "Throw Pillows",
       "description": "Soft and colorful throw pillows to add a cozy touch to your home.",
-      "image": "asset/products/home5.jpg"
+      "image": "asset/products/home5.jpg",
+      "price": 1200
     }
   ]
 }
