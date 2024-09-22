@@ -89,6 +89,12 @@
       "description": "Soft and colorful throw pillows to add a cozy touch to your home.",
       "image": "asset/products/home5.jpg",
       "price": 1200
+    }, 
+    {
+      "title": "4K Smart TV",
+      "description": "Experience immersive viewing with this ultra-high definition 4K smart TV.",
+      "image": "asset/products/electronic3.jpg",
+      "price": 85000
     }
   ]
 }
