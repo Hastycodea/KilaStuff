@@ -4,7 +4,7 @@ const bestSellingProducts = document.querySelector(".best-products .row");
 
 // getting products
 class Products {
-    async getPoducts() {
+    async getProducts() {
         try {
             let result = await fetch("products.json")
             let data = await result.json(); //parsing the json
@@ -64,7 +64,6 @@ class UI {
                   </div>
                 </div>`;
         });
-        console.log(result);
         bestSellingProducts.innerHTML = result;
 
     }
@@ -75,12 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const products = new Products();
 
     // getting all products
-    products.getPoducts().then(products => {
+    products.getProducts().then(products => {
         ui.displayProducts(products);
     });
 
     // getting best products
-    products.getPoducts().then(items => {
+    products.getProducts().then(items => {
         ui.displayBestProducts(items);
     });
 
