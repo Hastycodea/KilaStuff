@@ -64,7 +64,7 @@ class UI {
                   </div>
                 </div>`;
         });
-
+        console.log(result);
         bestSellingProducts.innerHTML = result;
 
     }
@@ -77,7 +77,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // getting all products
     products.getPoducts().then(products => {
         ui.displayProducts(products);
-        ui.displayBestProducts(products);
+    });
+
+    // getting best products
+    products.getPoducts().then(items => {
+        ui.displayBestProducts(items);
     });
 
    
