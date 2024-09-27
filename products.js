@@ -62,10 +62,10 @@ class UI {
                     <div class="card-body">
                       <h5 class="card-title">${product.title}</h5>
                       <p class="card-text">${product.description}</p>
-                      <button class="btn bag-btn d-flex align-items-center" data-id=${product.id}>
+                      <a class="btn bag-btn d-flex align-items-center" >
                         <ion-icon name="cart" class="me-auto"></ion-icon>
                         <span class="m-0 text-center w-100"> Add to cart</span>
-                        </button>
+                        </a>
                     </div>
                   </div>
                 </div>`;
@@ -76,10 +76,38 @@ class UI {
 
     getBagButtons() {
         const buttons = [...document.querySelectorAll('.bag-btn')];
-        console.log(buttons);
-        
+        // console.log(buttons);
+
+        buttonsDom = buttons;
+
+        buttons.forEach(button => {
+            let id = button.dataset.id;
+            let inCart = cart.find(item => item.id === id);
+
+            if (inCart) {
+                button.innerText = 'In Cart';
+                button.disabled = true;
+            }
+
+            button.addEventListener('click', event => {
+                event.target.innerText = 'In Cart'
+                button.disabled = true;
+
+                //get product from products
+                let cartItem = { ...Storage.getProduct(id), amount: 1 };
+            })
+        })
+
+
     }
 
+}
+
+class Storage {
+    static getProduct(id) {
+        let products = JSON.parse(localStorage.getItem('products'));
+        return products.find(product => product.id === id);
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
