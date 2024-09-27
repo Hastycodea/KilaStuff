@@ -2,6 +2,10 @@
 const productContainer = document.querySelector(".products .row");
 const bestSellingProducts = document.querySelector(".best-products .row");
 
+// cart
+let cart = [];
+let buttonsDom = [];
+
 // getting products
 class Products {
     async getProducts() {
@@ -12,8 +16,8 @@ class Products {
             // accessing product array inside the object
             let products = data.products;
             products = products.map(item => {
-                const { title, description, image, price } = item;
-                return {title, description, image, price};
+                const { id, title, description, image, price } = item;
+                return { id, title, description, image, price };
             });
             return products;
 
@@ -22,6 +26,8 @@ class Products {
         }
     }
 }
+
+
 
 
 // displaying products
@@ -37,7 +43,7 @@ class UI {
                       <h5 class="card-title">${product.title}</h5>
                       <p class="card-text">${product.description}</p>
                       <p>KSh ${product.price}</p>
-                      <a href="#" class="btn btn-primary">Add to cart</a>
+                      <button class="btn bag-btn" data-id=${product.id}>Add to cart</button>
                     </div>
                   </div>
                 </div>`;
@@ -56,10 +62,10 @@ class UI {
                     <div class="card-body">
                       <h5 class="card-title">${product.title}</h5>
                       <p class="card-text">${product.description}</p>
-                      <a href="#" class="btn d-flex align-items-center">
+                      <button class="btn bag-btn d-flex align-items-center" data-id=${product.id}>
                         <ion-icon name="cart" class="me-auto"></ion-icon>
                         <span class="m-0 text-center w-100"> Add to cart</span>
-                        </a>
+                        </button>
                     </div>
                   </div>
                 </div>`;
@@ -67,6 +73,13 @@ class UI {
         bestSellingProducts.innerHTML = result;
 
     }
+
+    getBagButtons() {
+        const buttons = [...document.querySelectorAll('.bag-btn')];
+        console.log(buttons);
+        
+    }
+
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -76,6 +89,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // getting all products
     products.getProducts().then(products => {
         ui.displayProducts(products);
+    }).then(() => {
+        ui.getBagButtons();
     });
 
     // getting best products
@@ -83,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ui.displayBestProducts(items);
     });
 
-   
+
 
 });
 
