@@ -1,8 +1,11 @@
 // variables
 const productContainer = document.querySelector(".products .row");
 const bestSellingProducts = document.querySelector(".best-products .row");
-const cartTotal = document.querySelector('cart-total');
-const totalItems = document.querySelector('total-items');
+const cartTotal = document.querySelector(".cart-total");
+const totalItems = document.querySelector('.total-items');
+
+console.log(cartTotal);
+
 
 // cart
 let cart = [];
